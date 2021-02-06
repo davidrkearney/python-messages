@@ -35,7 +35,7 @@ example_final_df
 
 
 example_final_df_cols = example_final_df[
-    ["full_name", "name", "birthday", "email", "phone", "gift_ideas", "address"]
+    ["example", "example"]
 ]
 
 
@@ -66,7 +66,7 @@ message.attach(MIMEText(body, "plain"))
 
 filename = "example_final_df.csv"  # In same directory as script
 
-# Open PDF file in binary mode
+# Open file in binary mode
 with open(filename, "rb") as attachment:
     # Add file as application/octet-stream
     # Email client can usually download this automatically as attachment
